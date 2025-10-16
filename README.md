@@ -125,6 +125,20 @@ TWILIO_SERVICE_SID=
 <img width="1913" height="615" alt="image" src="https://github.com/user-attachments/assets/a9fd0835-6f48-41ae-87af-561405a63958" />
 <img width="1919" height="520" alt="image" src="https://github.com/user-attachments/assets/a77cf6ef-b175-4883-a1df-7248c5f97c86" />
 <img width="1919" height="764" alt="image" src="https://github.com/user-attachments/assets/28c65522-0d66-4330-b0bb-f38935a922f7" />
+<img width="1919" height="653" alt="image" src="https://github.com/user-attachments/assets/c47a89b2-a187-443e-a5d0-816302e72e97" />
+<img width="1919" height="752" alt="image" src="https://github.com/user-attachments/assets/97e8d28f-ded1-4f96-ba66-3d061c707575" />
+
+## RDS Configuration
+<img width="1918" height="604" alt="image" src="https://github.com/user-attachments/assets/e6c77845-c640-416f-bb3d-6dc59e10829a" />
+<img width="1644" height="254" alt="image" src="https://github.com/user-attachments/assets/3254b728-985b-4af5-b105-1f24799d2d18" />
+<img width="1919" height="933" alt="image" src="https://github.com/user-attachments/assets/f2268f6d-6573-4afd-8930-411efcbc7d17" />
+<img width="1918" height="981" alt="image" src="https://github.com/user-attachments/assets/4441a342-92a7-4ca0-b310-0efa4fe37372" />
+
+
+
+
+
+
 
 
 
