@@ -1,0 +1,15 @@
+User-agent: *
+
+Disallow: /admin
+Disallow: /cart
+Disallow: /orders
+Disallow: /checkouts
+Disallow: /checkout
+Disallow: /listing
+Disallow: /product
+Disallow: /?keyword=
+
+Allow: /
+Sitemap: https://www.jodhpurifurniture.com/sitemap.xml
+
+

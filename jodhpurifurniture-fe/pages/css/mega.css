@@ -1,0 +1,279 @@
+@import url("https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100;0,200;0,400;0,500;0,600;0,700;0,800;1,100;1,400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Jost:ital,wght@0,100;0,200;0,400;0,500;0,600;0,700;0,800;1,100;1,400&display=swap");
+
+.ul-reset {
+  padding-left: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+  list-style: none;
+}
+
+a {
+  text-decoration: none !important;
+}
+/* #Navigation Styles
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+nav {
+  background: #ffffff;
+  font-size: 0;
+  position: relative;
+  margin-top: 8px;
+}
+
+nav > ul > li {
+  display: inline-block;
+  font-size: 14px;
+  margin-right: 72px;
+  position: relative;
+}
+
+nav > ul > li:first-child {
+  padding-left: 0;
+}
+
+nav > ul > li:last-child {
+  padding-right: 0;
+}
+
+nav > ul > li > a {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  align-items: center;
+  letter-spacing: 0.02em;
+  color: #484848;
+  display: block;
+  position: relative;
+  padding: 12px 0;
+  border-bottom: 3px solid transparent;
+}
+@media screen and (max-width: 1100px) {
+.img-none-dropdown{
+display: none;
+}
+.img-none-header.col{
+  display: none;
+}
+}
+@media screen and (max-width: 950px) {
+  .img-none-dropdown2{
+  display: none;
+  }
+  .img-none-header2.col{
+    display: none;
+  }
+  }
+nav > ul > li:hover > a {
+  color: #f75725;
+  border-bottom: 3px solid #f75725;
+}
+/* Burhan Code Here */
+@media screen and (max-width: 991px) {
+  nav > ul > li {
+    margin-right: 40px;
+  }
+  nav > ul > li > a {
+    font-size: 13px;
+    line-height: 15px;
+  }
+}
+@media screen and (max-width: 768px) {
+  nav > ul > li {
+    margin-right: 25px;
+  }
+  nav > ul > li > a {
+    font-size: 12px;
+    line-height: 15px;
+  }
+}
+
+/* #Mega Menu Styles
+–––––––––––––––––––––––––––––––––––––––––––––––––– Burhan code  */
+.mega-menu {
+  background-color: #f4f9fc;
+  display: none;
+  left: 0;
+  right: 0px;
+  position: absolute;
+  text-align: left;
+  width: auto;
+  /* min-width: 1000px; */
+  box-shadow: 0px 4px 20px rgba(72, 72, 72, 0.2);
+  padding: 17px 15px;
+  z-index: 9;
+}
+
+
+.mega-menu h3 {
+  font-family: "Jost", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  margin-top: -14px;
+  text-transform: uppercase;
+  color: #484848;
+  margin-bottom: 16px;
+}
+
+/* Burhan Code Here */
+.mega-menu img {
+  margin-left: 0px !important;
+  /* width: 100% !important; */
+}
+
+.mega-menu ul {
+  float: left;
+  margin-top: 10px;
+  padding-top: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  
+}
+.img-width-for{
+width: 266px;
+}
+
+
+.mega-menu ul:last-child {
+  margin-right: 0;
+}
+
+.mega-menu a {
+  display: block;
+  font-family: "Jost", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  margin: 11px 0px;
+  color: #767676;
+
+}
+
+.mega-menu a:hover {
+  color: #e3612d;
+}
+
+/* #Droppable Class Styles
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.droppable {
+  position: static;
+}
+
+.droppable > a:after {
+  font-size: 12px;
+  padding-left: 6px;
+  position: relative;
+  top: -1px;
+}
+
+.droppable:hover .mega-menu {
+  display: block;
+  z-index: 1000 !important;
+}
+
+.cf:before,
+.cf:after {
+  content: " ";
+  /* 1 */
+  display: table;
+  /* 2 */
+}
+.cf:after {
+  clear: both;
+}
+
+
+/* Burhan Code Here */
+.mega-menu2 {
+  background: #f4f9fc;
+  display: none;
+  left: 0;
+  right: 0px;
+  position: absolute;
+  text-align: left;
+  width: auto;
+  /* min-width: 1000px; */
+  box-shadow: 0px 4px 20px rgba(72, 72, 72, 0.2);
+  padding: 17px 15px;
+  z-index: 9;
+}
+
+
+.mega-menu2 h3 {
+  font-family: "Jost", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  margin-top: -14px;
+  text-transform: uppercase;
+  color: #484848;
+  margin-bottom: 16px;
+}
+.mega-menu2 img {
+  margin-left: 0px !important;
+  
+}
+.mega-menu2 ul {
+  float: left;
+  margin-top: 23px;
+  padding-top: 10px;
+  padding-left: 22px;
+  padding-right: 22px;
+}
+.img-width-for{
+width: 266px;
+}
+
+
+.mega-menu2 ul:last-child {
+  margin-right: 0;
+}
+
+.mega-menu2 a {
+  display: block;
+  font-family: "Jost", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  margin: 11px 0px;
+  color: #767676;
+}
+
+.mega-menu2 a:hover {
+  color: #f75725;
+}
+
+/* #Droppable Class Styles
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.droppable {
+  position: static;
+}
+
+.droppable > a:after {
+  font-size: 12px;
+  padding-left: 6px;
+  position: relative;
+  top: -1px;
+}
+
+.droppable:hover .mega-menu2 {
+  display: block;
+  z-index: 1000 !important;
+}
+
+.cf:before,
+.cf:after {
+  content: " ";
+  /* 1 */
+  display: table;
+  /* 2 */
+}
+.cf:after {
+  clear: both;
+}

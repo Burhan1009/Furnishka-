@@ -1,0 +1,1 @@
+export const phoneNum = "+91 88618 41594"
